@@ -1,22 +1,22 @@
-public class primecomp {
+public class primecomp 
+{
    public static void main(String[] args) 
    {
-    int a=8;
+    int a=1;
     int div = 2;
     boolean composite = false;
-   for(div;div<a/2;div++)
-   {
-    if(a%div==0)
+    while(div<=a/2)
     {
-        composite = true;
-        break;
-    }
-    else
-    {
+        if(a%div==0)
+        {
+            composite = true;
+            break;
+        }
         div++;
     }
-   }
-   if(composite== true) System.out.println("Composite");
-   else System.out.println("Prime ");
-}
+    if (a==1) System.out.println("Neither prime nor Composite ");
+    else if (composite) System.out.println("Composite number");
+    else  System.out.println("Prime number");
+
+    }
 }
