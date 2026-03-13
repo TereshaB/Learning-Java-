@@ -10,7 +10,7 @@ public static void main(String[]args)
     frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame1.getContentPane().setBackground(Color.red);
     JFrame frame2 =new JFrame();
-    frame2.getContentPane().setBackground(Color.yellow);
+    frame2.getContentPane().setBackground(Color.yellow);// main part
     frame2.setSize(300,400);
     frame2.setVisible(true);
     frame1.setVisible(true);
