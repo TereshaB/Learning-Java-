@@ -5,6 +5,7 @@ public class gui
     {
         JFrame frame = new JFrame();
         frame.setSize(800,900);
+        frame.setTitle("where does this go?");
         frame.setVisible(true);
     }
 }
